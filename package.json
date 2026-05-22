@@ -1,0 +1,50 @@
+{
+  "name": "@gistapps/polaris-react-web-components",
+  "version": "1.0.0",
+  "description": "Drop-in Polaris React-compatible components built on Shopify App web components (<s-*> elements).",
+  "keywords": [
+    "shopify",
+    "polaris",
+    "react",
+    "web-components",
+    "app-home",
+    "shopify-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/polaris-web.cjs",
+  "module": "./dist/polaris-web.js",
+  "types": "./dist/polaris-web.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/polaris-web.d.ts",
+        "default": "./dist/polaris-web.js"
+      },
+      "require": {
+        "types": "./dist/polaris-web.d.cts",
+        "default": "./dist/polaris-web.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
