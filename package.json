@@ -1,6 +1,6 @@
 {
   "name": "@gistapps/polaris-react-web-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in Polaris React-compatible components built on Shopify App web components (<s-*> elements).",
   "keywords": [
     "shopify",
