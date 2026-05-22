@@ -18,14 +18,156 @@
   "types": "./dist/polaris-web.d.ts",
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/polaris-web.d.ts",
-        "default": "./dist/polaris-web.js"
-      },
-      "require": {
-        "types": "./dist/polaris-web.d.cts",
-        "default": "./dist/polaris-web.cjs"
-      }
+      "import": { "types": "./dist/polaris-web.d.ts", "default": "./dist/polaris-web.js" },
+      "require": { "types": "./dist/polaris-web.d.cts", "default": "./dist/polaris-web.cjs" }
+    },
+    "./AppProvider": {
+      "import": { "types": "./dist/AppProvider.d.ts", "default": "./dist/AppProvider.js" },
+      "require": { "types": "./dist/AppProvider.d.cts", "default": "./dist/AppProvider.cjs" }
+    },
+    "./Badge": {
+      "import": { "types": "./dist/Badge.d.ts", "default": "./dist/Badge.js" },
+      "require": { "types": "./dist/Badge.d.cts", "default": "./dist/Badge.cjs" }
+    },
+    "./Banner": {
+      "import": { "types": "./dist/Banner.d.ts", "default": "./dist/Banner.js" },
+      "require": { "types": "./dist/Banner.d.cts", "default": "./dist/Banner.cjs" }
+    },
+    "./BlockStack": {
+      "import": { "types": "./dist/BlockStack.d.ts", "default": "./dist/BlockStack.js" },
+      "require": { "types": "./dist/BlockStack.d.cts", "default": "./dist/BlockStack.cjs" }
+    },
+    "./Box": {
+      "import": { "types": "./dist/Box.d.ts", "default": "./dist/Box.js" },
+      "require": { "types": "./dist/Box.d.cts", "default": "./dist/Box.cjs" }
+    },
+    "./Button": {
+      "import": { "types": "./dist/Button.d.ts", "default": "./dist/Button.js" },
+      "require": { "types": "./dist/Button.d.cts", "default": "./dist/Button.cjs" }
+    },
+    "./ButtonGroup": {
+      "import": { "types": "./dist/ButtonGroup.d.ts", "default": "./dist/ButtonGroup.js" },
+      "require": { "types": "./dist/ButtonGroup.d.cts", "default": "./dist/ButtonGroup.cjs" }
+    },
+    "./Card": {
+      "import": { "types": "./dist/Card.d.ts", "default": "./dist/Card.js" },
+      "require": { "types": "./dist/Card.d.cts", "default": "./dist/Card.cjs" }
+    },
+    "./Checkbox": {
+      "import": { "types": "./dist/Checkbox.d.ts", "default": "./dist/Checkbox.js" },
+      "require": { "types": "./dist/Checkbox.d.cts", "default": "./dist/Checkbox.cjs" }
+    },
+    "./ChoiceList": {
+      "import": { "types": "./dist/ChoiceList.d.ts", "default": "./dist/ChoiceList.js" },
+      "require": { "types": "./dist/ChoiceList.d.cts", "default": "./dist/ChoiceList.cjs" }
+    },
+    "./ContextualSaveBar": {
+      "import": { "types": "./dist/ContextualSaveBar.d.ts", "default": "./dist/ContextualSaveBar.js" },
+      "require": { "types": "./dist/ContextualSaveBar.d.cts", "default": "./dist/ContextualSaveBar.cjs" }
+    },
+    "./Divider": {
+      "import": { "types": "./dist/Divider.d.ts", "default": "./dist/Divider.js" },
+      "require": { "types": "./dist/Divider.d.cts", "default": "./dist/Divider.cjs" }
+    },
+    "./DropZone": {
+      "import": { "types": "./dist/DropZone.d.ts", "default": "./dist/DropZone.js" },
+      "require": { "types": "./dist/DropZone.d.cts", "default": "./dist/DropZone.cjs" }
+    },
+    "./EmptyState": {
+      "import": { "types": "./dist/EmptyState.d.ts", "default": "./dist/EmptyState.js" },
+      "require": { "types": "./dist/EmptyState.d.cts", "default": "./dist/EmptyState.cjs" }
+    },
+    "./FormLayout": {
+      "import": { "types": "./dist/FormLayout.d.ts", "default": "./dist/FormLayout.js" },
+      "require": { "types": "./dist/FormLayout.d.cts", "default": "./dist/FormLayout.cjs" }
+    },
+    "./Frame": {
+      "import": { "types": "./dist/Frame.d.ts", "default": "./dist/Frame.js" },
+      "require": { "types": "./dist/Frame.d.cts", "default": "./dist/Frame.cjs" }
+    },
+    "./Grid": {
+      "import": { "types": "./dist/Grid.d.ts", "default": "./dist/Grid.js" },
+      "require": { "types": "./dist/Grid.d.cts", "default": "./dist/Grid.cjs" }
+    },
+    "./HelpCard": {
+      "import": { "types": "./dist/HelpCard.d.ts", "default": "./dist/HelpCard.js" },
+      "require": { "types": "./dist/HelpCard.d.cts", "default": "./dist/HelpCard.cjs" }
+    },
+    "./Icon": {
+      "import": { "types": "./dist/Icon.d.ts", "default": "./dist/Icon.js" },
+      "require": { "types": "./dist/Icon.d.cts", "default": "./dist/Icon.cjs" }
+    },
+    "./IndexTable": {
+      "import": { "types": "./dist/IndexTable.d.ts", "default": "./dist/IndexTable.js" },
+      "require": { "types": "./dist/IndexTable.d.cts", "default": "./dist/IndexTable.cjs" }
+    },
+    "./InlineGrid": {
+      "import": { "types": "./dist/InlineGrid.d.ts", "default": "./dist/InlineGrid.js" },
+      "require": { "types": "./dist/InlineGrid.d.cts", "default": "./dist/InlineGrid.cjs" }
+    },
+    "./InlineStack": {
+      "import": { "types": "./dist/InlineStack.d.ts", "default": "./dist/InlineStack.js" },
+      "require": { "types": "./dist/InlineStack.d.cts", "default": "./dist/InlineStack.cjs" }
+    },
+    "./Layout": {
+      "import": { "types": "./dist/Layout.d.ts", "default": "./dist/Layout.js" },
+      "require": { "types": "./dist/Layout.d.cts", "default": "./dist/Layout.cjs" }
+    },
+    "./Link": {
+      "import": { "types": "./dist/Link.d.ts", "default": "./dist/Link.js" },
+      "require": { "types": "./dist/Link.d.cts", "default": "./dist/Link.cjs" }
+    },
+    "./List": {
+      "import": { "types": "./dist/List.d.ts", "default": "./dist/List.js" },
+      "require": { "types": "./dist/List.d.cts", "default": "./dist/List.cjs" }
+    },
+    "./MediaCard": {
+      "import": { "types": "./dist/MediaCard.d.ts", "default": "./dist/MediaCard.js" },
+      "require": { "types": "./dist/MediaCard.d.cts", "default": "./dist/MediaCard.cjs" }
+    },
+    "./Modal": {
+      "import": { "types": "./dist/Modal.d.ts", "default": "./dist/Modal.js" },
+      "require": { "types": "./dist/Modal.d.cts", "default": "./dist/Modal.cjs" }
+    },
+    "./Page": {
+      "import": { "types": "./dist/Page.d.ts", "default": "./dist/Page.js" },
+      "require": { "types": "./dist/Page.d.cts", "default": "./dist/Page.cjs" }
+    },
+    "./ResourceItem": {
+      "import": { "types": "./dist/ResourceItem.d.ts", "default": "./dist/ResourceItem.js" },
+      "require": { "types": "./dist/ResourceItem.d.cts", "default": "./dist/ResourceItem.cjs" }
+    },
+    "./ResourceList": {
+      "import": { "types": "./dist/ResourceList.d.ts", "default": "./dist/ResourceList.js" },
+      "require": { "types": "./dist/ResourceList.d.cts", "default": "./dist/ResourceList.cjs" }
+    },
+    "./Select": {
+      "import": { "types": "./dist/Select.d.ts", "default": "./dist/Select.js" },
+      "require": { "types": "./dist/Select.d.cts", "default": "./dist/Select.cjs" }
+    },
+    "./Spinner": {
+      "import": { "types": "./dist/Spinner.d.ts", "default": "./dist/Spinner.js" },
+      "require": { "types": "./dist/Spinner.d.cts", "default": "./dist/Spinner.cjs" }
+    },
+    "./Text": {
+      "import": { "types": "./dist/Text.d.ts", "default": "./dist/Text.js" },
+      "require": { "types": "./dist/Text.d.cts", "default": "./dist/Text.cjs" }
+    },
+    "./TextField": {
+      "import": { "types": "./dist/TextField.d.ts", "default": "./dist/TextField.js" },
+      "require": { "types": "./dist/TextField.d.cts", "default": "./dist/TextField.cjs" }
+    },
+    "./Thumbnail": {
+      "import": { "types": "./dist/Thumbnail.d.ts", "default": "./dist/Thumbnail.js" },
+      "require": { "types": "./dist/Thumbnail.d.cts", "default": "./dist/Thumbnail.cjs" }
+    },
+    "./Tooltip": {
+      "import": { "types": "./dist/Tooltip.d.ts", "default": "./dist/Tooltip.js" },
+      "require": { "types": "./dist/Tooltip.d.cts", "default": "./dist/Tooltip.cjs" }
+    },
+    "./icons/CheckCircleIcon": {
+      "import": { "types": "./dist/icons/CheckCircleIcon.d.ts", "default": "./dist/icons/CheckCircleIcon.js" },
+      "require": { "types": "./dist/icons/CheckCircleIcon.d.cts", "default": "./dist/icons/CheckCircleIcon.cjs" }
     }
   },
   "files": [
@@ -33,8 +175,8 @@
   ],
   "sideEffects": false,
   "scripts": {
-    "build": "npx tsup",
-    "dev": "npx tsup --watch",
+    "build": "./node_modules/.bin/tsup",
+    "dev": "./node_modules/.bin/tsup --watch",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
